@@ -46,14 +46,14 @@ console.log(theFunk);
 
 function outer() {
   var example = "Greetings "
-  var name = "Proffesor Falken"
+ 
   return function inner(name) {
     return example + name
   }
 }
 
 var greeting = outer()
-var a = greeting();
+var a = greeting('Proffesor Falken');
 console.log(a);
 
 
