@@ -51,5 +51,8 @@ function outer() {
   }
 }
 
+var greeting = outer()
+console.log(greeting);
+
 
 
