@@ -46,6 +46,7 @@ console.log(theFunk);
 
 function outer() {
   var example = "Greetings "
+  var name = ""
   return function inner(name) {
     return example + name
   }
