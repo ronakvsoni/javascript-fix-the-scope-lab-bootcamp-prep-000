@@ -52,7 +52,6 @@ function outer() {
 }
 
 var greeting = outer()
-console.log(greeting);
 greeting('Proffesor Falken')
 
 console.log(greeting)
