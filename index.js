@@ -40,7 +40,7 @@ var funkyFunction = function() {
 var a = funkyFunction();
 
 var theFunk = a();
-console.log();
+console.log(theFunk);
 
 
 
