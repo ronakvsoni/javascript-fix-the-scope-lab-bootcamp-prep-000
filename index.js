@@ -44,3 +44,12 @@ console.log(theFunk);
 
 
 
+function outer() {
+  var example = "Greetings "
+  return function inner(name) {
+    return example + name
+  }
+}
+
+
+
