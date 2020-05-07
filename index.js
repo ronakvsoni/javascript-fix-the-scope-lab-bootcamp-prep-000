@@ -55,6 +55,7 @@ var greeting = outer()
 console.log(greeting);
 greeting('Proffesor Falken')
  
-
+var a = greeting();
+console.log(a)
 
 
