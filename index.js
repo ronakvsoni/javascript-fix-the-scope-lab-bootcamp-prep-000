@@ -53,6 +53,8 @@ function outer() {
 
 var greeting = outer()
 console.log(greeting);
+var a = greeting();
+console.log(a);
 
 
 
